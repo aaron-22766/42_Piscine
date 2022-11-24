@@ -1,0 +1,1 @@
+git status --short --ignored | grep "!" | sed "s/!! //1"
